@@ -16,10 +16,12 @@
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^11.0.0",
-    "ts-jest": "^27.0.3"
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "keywords": [],
   "author": "",
