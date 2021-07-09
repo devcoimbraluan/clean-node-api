@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625778983156" clover="3.2.0">
-  <project timestamp="1625778983156" name="All files">
-    <metrics statements="24" coveredstatements="20" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="2" elements="28" coveredelements="22" complexity="0" loc="24" ncloc="24" packages="1" files="2" classes="2"/>
-    <file name="db-add-account-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\addAccount\db-add-account-protocols.ts">
-      <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-    </file>
-    <file name="db-add-account.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\addAccount\db-add-account.ts">
-      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+<coverage generated="1625855954590" clover="3.2.0">
+  <project timestamp="1625855954590" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="16" coveredelements="16" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+    <file name="bcrypt-adapter.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\criptography\bcrypt-adapter.ts">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -21,16 +14,10 @@
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
-      <line num="11" count="5" type="stmt"/>
-      <line num="12" count="5" type="stmt"/>
-      <line num="13" count="5" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="16" count="14" type="stmt"/>
-      <line num="17" count="14" type="stmt"/>
-      <line num="18" count="14" type="stmt"/>
-      <line num="19" count="14" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
