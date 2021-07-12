@@ -1,72 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626120656781" clover="3.2.0">
-  <project timestamp="1626120656781" name="All files">
-    <metrics statements="48" coveredstatements="15" conditionals="6" coveredconditionals="4" methods="15" coveredmethods="5" elements="69" coveredelements="24" complexity="0" loc="48" ncloc="48" packages="2" files="4" classes="4"/>
-    <package name="account-repository">
-      <metrics statements="25" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
-      <file name="account.spec.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\db\mongodb\account-repository\account.spec.ts">
-        <metrics statements="20" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-      </file>
-      <file name="account.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\db\mongodb\account-repository\account.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="helpers">
-      <metrics statements="23" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="8" coveredmethods="4"/>
-      <file name="mongo-helper.spec.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\db\mongodb\helpers\mongo-helper.spec.ts">
-        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-      </file>
-      <file name="mongo-helper.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\db\mongodb\helpers\mongo-helper.ts">
-        <metrics statements="11" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="20" count="2" type="cond" truecount="4" falsecount="2"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1626122535196" clover="3.2.0">
+  <project timestamp="1626122535196" name="All files">
+    <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="2" coveredelements="0" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\protocols\index.ts">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+    </file>
   </project>
 </coverage>
