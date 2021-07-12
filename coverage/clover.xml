@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625863371721" clover="3.2.0">
-  <project timestamp="1625863371721" name="All files">
-    <metrics statements="14" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0" elements="16" coveredelements="0" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
-    <file name="bcrypt-adapter.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\criptography\bcrypt-adapter.ts">
-      <metrics statements="14" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="5" count="0" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="9" count="0" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
-    </file>
+<coverage generated="1626112176826" clover="3.2.0">
+  <project timestamp="1626112176826" name="All files">
+    <metrics statements="17" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4" elements="23" coveredelements="16" complexity="0" loc="17" ncloc="17" packages="3" files="3" classes="3"/>
+    <package name="criptography">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="bcrypt-adapter.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\criptography\bcrypt-adapter.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="db.mongodb.account-repository">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="account.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\db\mongodb\account-repository\account.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="db.mongodb.helpers">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="mongo-helper.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\infra\db\mongodb\helpers\mongo-helper.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
