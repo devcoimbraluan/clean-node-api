@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626115949691" clover="3.2.0">
-  <project timestamp="1626115949692" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="17" coveredelements="17" complexity="0" loc="15" ncloc="15" packages="2" files="3" classes="3"/>
+<coverage generated="1626116208999" clover="3.2.0">
+  <project timestamp="1626116208999" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="9" coveredelements="9" complexity="0" loc="8" ncloc="8" packages="2" files="2" classes="2"/>
     <package name="config">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="app.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\main\config\app.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="middlewares.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\main\config\middlewares.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
-      </file>
-      <file name="middlewares.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\main\config\middlewares.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
       </file>
     </package>
     <package name="middlewares">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="content-type.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\main\middlewares\content-type.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\main\middlewares\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
       </file>
     </package>
   </project>
