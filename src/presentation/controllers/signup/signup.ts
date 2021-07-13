@@ -1,8 +1,7 @@
 import {httpResponse, httpRequest, Controller, EmailValidator, AddAccount} from './signup-protocols'
 import { MissingParamError } from '../../errors/missing-params-error'
-import { badRequest } from '../../helpers/http-helper'
+import { badRequest, ok } from '../../helpers/http-helper'
 import { InvalidParamError } from '../../errors/invalid-params-error'
-import { certo } from '../../helpers/http-helper'
 import { serverError } from '../../helpers/http-helper'
 
 export class SignUpController implements Controller {
@@ -35,9 +34,8 @@ export class SignUpController implements Controller {
             email,
             password
         })
-        return certo(account)
+        return ok(account)
     }catch (error) {
-            console.log(error)
             return serverError(error)
             }
         } 
