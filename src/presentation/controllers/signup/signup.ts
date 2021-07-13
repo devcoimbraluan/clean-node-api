@@ -38,7 +38,7 @@ export class SignUpController implements Controller {
         return certo(account)
     }catch (error) {
             console.log(error)
-            return serverError()
+            return serverError(error)
             }
         } 
     }
