@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626290286489" clover="3.2.0">
-  <project timestamp="1626290286489" name="All files">
-    <metrics statements="34" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="7" elements="48" coveredelements="44" complexity="0" loc="34" ncloc="34" packages="3" files="5" classes="5"/>
+<coverage generated="1626290429626" clover="3.2.0">
+  <project timestamp="1626290429626" name="All files">
+    <metrics statements="35" coveredstatements="32" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8" elements="49" coveredelements="46" complexity="0" loc="35" ncloc="35" packages="3" files="5" classes="5"/>
     <package name="controllers.login">
-      <metrics statements="22" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <metrics statements="23" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="login-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\login\login-protocols.ts">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
@@ -11,26 +11,27 @@
         <line num="3" count="0" type="stmt"/>
       </file>
       <file name="login.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\login\login.ts">
-        <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="12" count="8" type="stmt"/>
-        <line num="13" count="8" type="stmt"/>
-        <line num="17" count="8" type="stmt"/>
-        <line num="18" count="8" type="stmt"/>
-        <line num="19" count="8" type="stmt"/>
-        <line num="20" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="17" type="cond" truecount="2" falsecount="0"/>
         <line num="21" count="2" type="stmt"/>
-        <line num="24" count="6" type="stmt"/>
-        <line num="25" count="6" type="stmt"/>
-        <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
-        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="1" type="stmt"/>
-        <line num="34" count="2" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -49,15 +50,15 @@
       </file>
     </package>
     <package name="helpers">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="http-helper.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\helpers\http-helper.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="6" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
       </file>
     </package>
   </project>
