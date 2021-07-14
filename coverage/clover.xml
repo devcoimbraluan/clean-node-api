@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626292203093" clover="3.2.0">
-  <project timestamp="1626292203093" name="All files">
-    <metrics statements="48" coveredstatements="41" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="8" elements="65" coveredelements="57" complexity="0" loc="48" ncloc="48" packages="4" files="7" classes="7"/>
+<coverage generated="1626292404507" clover="3.2.0">
+  <project timestamp="1626292404507" name="All files">
+    <metrics statements="43" coveredstatements="36" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="8" elements="58" coveredelements="50" complexity="0" loc="43" ncloc="43" packages="4" files="7" classes="7"/>
     <package name="controllers.signup">
-      <metrics statements="30" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="25" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="signup-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\signup\signup-protocols.ts">
         <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
@@ -13,32 +13,27 @@
         <line num="5" count="0" type="stmt"/>
       </file>
       <file name="signup.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\signup\signup.ts">
-        <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="14" count="13" type="stmt"/>
-        <line num="15" count="13" type="stmt"/>
-        <line num="16" count="13" type="stmt"/>
-        <line num="20" count="13" type="stmt"/>
-        <line num="21" count="13" type="stmt"/>
-        <line num="22" count="13" type="cond" truecount="2" falsecount="0"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="25" count="12" type="stmt"/>
-        <line num="26" count="12" type="stmt"/>
-        <line num="27" count="42" type="cond" truecount="2" falsecount="0"/>
-        <line num="28" count="4" type="stmt"/>
-        <line num="31" count="8" type="stmt"/>
-        <line num="32" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="7" type="stmt"/>
-        <line num="36" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="39" count="5" type="stmt"/>
-        <line num="44" count="4" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="29" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -52,8 +47,8 @@
       <file name="missing-params-error.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\errors\missing-params-error.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
       </file>
       <file name="server-error.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\errors\server-error.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -69,7 +64,7 @@
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="14" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
         <line num="20" count="5" type="stmt"/>
