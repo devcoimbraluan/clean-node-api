@@ -1,82 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626292404507" clover="3.2.0">
-  <project timestamp="1626292404507" name="All files">
-    <metrics statements="43" coveredstatements="36" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="8" elements="58" coveredelements="50" complexity="0" loc="43" ncloc="43" packages="4" files="7" classes="7"/>
-    <package name="controllers.signup">
-      <metrics statements="25" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
-      <file name="signup-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\signup\signup-protocols.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-      </file>
-      <file name="signup.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\signup\signup.ts">
-        <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="13" count="9" type="stmt"/>
-        <line num="14" count="9" type="stmt"/>
-        <line num="15" count="9" type="stmt"/>
-        <line num="19" count="9" type="stmt"/>
-        <line num="20" count="9" type="stmt"/>
-        <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
-        <line num="25" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="28" count="7" type="stmt"/>
-        <line num="29" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="5" type="stmt"/>
-        <line num="37" count="4" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="errors">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="invalid-params-error.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\errors\invalid-params-error.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-      </file>
-      <file name="missing-params-error.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\errors\missing-params-error.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-      </file>
-      <file name="server-error.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\errors\server-error.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="5" count="6" type="stmt"/>
-      </file>
-    </package>
-    <package name="helpers">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-      <file name="http-helper.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\helpers\http-helper.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="6" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="protocols">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\protocols\index.ts">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1626293692395" clover="3.2.0">
+  <project timestamp="1626293692395" name="All files">
+    <metrics statements="11" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="1" elements="19" coveredelements="5" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
+    <file name="required-field-validation.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\helpers\validators\required-field-validation.ts">
+      <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="12" count="0" type="stmt"/>
+    </file>
+    <file name="validation-composite.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\helpers\validators\validation-composite.ts">
+      <metrics statements="6" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="12" count="0" type="stmt"/>
+    </file>
   </project>
 </coverage>
