@@ -1,5 +1,4 @@
 import { InvalidParamError } from '../../errors/invalid-params-error'
-import { MissingParamError } from '../../errors/missing-params-error'
 import {Validation} from './validation'
 
 export class CompareFieldsValidation implements Validation {
