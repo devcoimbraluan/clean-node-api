@@ -1,63 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626534935503" clover="3.2.0">
-  <project timestamp="1626534935503" name="All files">
-    <metrics statements="31" coveredstatements="23" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7" elements="42" coveredelements="34" complexity="0" loc="31" ncloc="31" packages="4" files="5" classes="5"/>
-    <package name="controllers.login">
-      <metrics statements="17" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <file name="login-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\login\login-protocols.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-      </file>
-      <file name="login.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\login\login.ts">
-        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
-        <line num="11" count="6" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="16" count="6" type="stmt"/>
-        <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="controllers.signup">
-      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="signup-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\controllers\signup\signup-protocols.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+<coverage generated="1626717706216" clover="3.2.0">
+  <project timestamp="1626717706217" name="All files">
+    <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="10" coveredelements="6" complexity="0" loc="8" ncloc="8" packages="2" files="2" classes="2"/>
+    <package name="addAccount">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="db-add-account-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\addAccount\db-add-account-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="errors">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="missing-params-error.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\errors\missing-params-error.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="helpers.http">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <file name="http-helper.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\presentation\helpers\http\http-helper.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
+    <package name="authentication">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="db-authentication.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\authentication\db-authentication.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
       </file>
     </package>
   </project>
