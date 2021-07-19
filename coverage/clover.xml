@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626724668784" clover="3.2.0">
-  <project timestamp="1626724668784" name="All files">
-    <metrics statements="19" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="25" coveredelements="19" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
-    <file name="db-authentication-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\authentication\db-authentication-protocols.ts">
-      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="1" count="0" type="stmt"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
-      <line num="5" count="0" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
-    </file>
-    <file name="db-authentication.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\authentication\db-authentication.ts">
+<coverage generated="1626725790168" clover="3.2.0">
+  <project timestamp="1626725790169" name="All files">
+    <metrics statements="23" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="31" coveredelements="27" complexity="0" loc="23" ncloc="23" packages="2" files="3" classes="3"/>
+    <package name="addAccount">
+      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="db-add-account-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\addAccount\db-add-account-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="db-add-account.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\addAccount\db-add-account.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="authentication">
       <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="13" count="11" type="stmt"/>
-      <line num="14" count="11" type="stmt"/>
-      <line num="15" count="11" type="stmt"/>
-      <line num="16" count="11" type="stmt"/>
-      <line num="20" count="11" type="stmt"/>
-      <line num="21" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="9" type="stmt"/>
-      <line num="23" count="8" type="cond" truecount="2" falsecount="0"/>
-      <line num="24" count="7" type="stmt"/>
-      <line num="25" count="6" type="stmt"/>
-      <line num="26" count="5" type="stmt"/>
-      <line num="29" count="2" type="stmt"/>
-    </file>
+      <file name="db-authentication.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\authentication\db-authentication.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="22" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
