@@ -4,10 +4,9 @@ import { AddAccountRepository } from '../../protocols/db/account/add-account-rep
 import { Hasher } from '../../protocols/criptography/hasher'
 
 export class DbAddAccount implements AddAccount {
-    private readonly addAccountRepository: AddAccountRepository
-    private readonly hasher: Hasher
-
-    constructor (hasher: Hasher, addAccountRepository: AddAccountRepository) {
+    constructor (private readonly hasher: Hasher,
+        private readonly addAccountRepository: AddAccountRepository
+        ) {
         this.hasher = hasher
         this.addAccountRepository = addAccountRepository
     }
