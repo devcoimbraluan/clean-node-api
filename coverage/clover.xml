@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626806738616" clover="3.2.0">
-  <project timestamp="1626806738616" name="All files">
+<coverage generated="1626806879832" clover="3.2.0">
+  <project timestamp="1626806879832" name="All files">
     <metrics statements="19" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="25" coveredelements="19" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="db-authentication-protocols.ts" path="C:\Users\luan.rocha\Desktop\cursoudemy\clean-node-api\src\data\usecases\authentication\db-authentication-protocols.ts">
       <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
