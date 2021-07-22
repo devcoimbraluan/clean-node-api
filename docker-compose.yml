@@ -13,8 +13,9 @@ services:
     build: .
     restart: always
     image: clean-node-api
-    command: npm start
+    command: npm run debug
     volumes:
+      - ./dist:/usr/src/clean-node-api/dist
       - ./dist:/usr/src/clean-node-api/dist
     ports: 
       - "5050:5050"
