@@ -50,7 +50,7 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "up": "npm run build && docker-compose up -d",
+    "up": "npm run build && docker-compose up",
     "down": "docker-compose down"
   },
   "keywords": [],
