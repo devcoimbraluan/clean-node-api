@@ -51,7 +51,7 @@
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
     "up": "npm run build && docker-compose up -d",
-    "stop": "docker-compose down"
+    "down": "docker-compose down"
   },
   "keywords": [],
   "author": "",
