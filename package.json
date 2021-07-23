@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb-memory-server": "^7.2.0",
+    "nodemon": "^2.0.12",
     "typescript": "^4.3.5",
     "validator": "^13.6.0"
   },
@@ -43,14 +44,14 @@
   "scripts": {
     "start": "node dist/main/server.js",
     "build": "rimraf dist && tsc",
-    "debug": "node --inspect=0.0.0.0:9222 --noLazy dist/main/server.js",
+    "debug": "nodemon -L --watch ./dist --inspect=0.0.0.0:9222 --noLazy dist/main/server.js",
     "test": "jest --passWithNoTests --watch --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "up": "npm run build && docker-compose up",
+    "up": "npm run build && docker-compose up -d",
     "down": "docker-compose down"
   },
   "keywords": [],
